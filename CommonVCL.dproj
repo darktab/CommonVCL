@@ -143,15 +143,6 @@
         <DCCReference Include="dbrtl.dcp"/>
         <DCCReference Include="UDataComboBox.pas"/>
         <DCCReference Include="UDataListView.pas"/>
-        <DCCReference Include="UDataComboListViewForm.pas">
-            <Form>DataComboListViewForm</Form>
-            <FormType>fmx</FormType>
-        </DCCReference>
-        <DCCReference Include="UDataComboListViewFrame.pas">
-            <Form>DataComboListViewFrame</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

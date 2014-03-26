@@ -34,8 +34,6 @@ requires
 
 contains
   UDataComboBox in 'UDataComboBox.pas',
-  UDataListView in 'UDataListView.pas',
-  UDataComboListViewForm in 'UDataComboListViewForm.pas' {DataComboListViewForm},
-  UDataComboListViewFrame in 'UDataComboListViewFrame.pas' {DataComboListViewFrame: TFrame};
+  UDataListView in 'UDataListView.pas';
 
 end.
