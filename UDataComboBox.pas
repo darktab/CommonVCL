@@ -18,6 +18,8 @@ type
     { Public declarations }
     procedure init(lDataSet: TDataSet; lDataFieldName: string); overload;
     procedure init; overload;
+    Constructor Create(AOwner: TComponent); override;
+
   published
     { Published declarations }
     Property DataSet: TDataSet read fDataSet write fDataSet;
@@ -65,6 +67,16 @@ begin
   self.DataFieldName := lDataFieldName;
 
   init;
+
+end;
+
+// Create a combobox
+constructor TDataComboBox.Create(AOwner: TComponent);
+begin
+  // Execute the parent (TObject) constructor first
+  inherited; // Call the parent Create method
+
+  // init;
 
 end;
 
