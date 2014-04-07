@@ -34,6 +34,7 @@ requires
 
 contains
   UDataComboBox in 'UDataComboBox.pas',
-  UDataListView in 'UDataListView.pas';
+  UDataListView in 'UDataListView.pas',
+  UDataListBox in 'UDataListBox.pas';
 
 end.
