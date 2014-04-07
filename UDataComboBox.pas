@@ -57,8 +57,12 @@ begin
 
   // on se positionne sur le premier bouquet
   // et on retourne la référence
-  self.ItemIndex := 0;
-  self.DataSet.First;
+  try
+    self.ItemIndex := 0;
+    self.DataSet.First;
+  except
+
+  end;
 end;
 
 procedure TDataComboBox.init(lDataSet: TDataSet; lDataFieldName: string);
