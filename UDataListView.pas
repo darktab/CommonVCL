@@ -12,11 +12,13 @@ type
     { Private declarations }
     fDataSet: TDataSet;
     fDataFieldName: String;
+    fDetailStringList: TStringList;
   protected
     { Protected declarations }
   public
     { Public declarations }
     procedure init(lDataSet: TDataSet; lDataFieldName: string); overload;
+    procedure init(lDetailStringList: TStringList); overload;
     procedure init; overload;
     Constructor Create(AOwner: TComponent); override;
   published
@@ -34,10 +36,17 @@ begin
   RegisterComponents('Data Access', [TDataListView]);
 end;
 
+procedure TDataListView.init(lDetailStringList: TStringList);
+begin
+  fDetailStringList := lDetailStringList;
+  init;
+end;
+
 procedure TDataListView.init;
 var
   item: TListViewItem;
   field: TField;
+  detail: string;
 begin
   self.ClearItems;
   if not self.DataSet.Active then
@@ -45,12 +54,24 @@ begin
   self.DataSet.First;
   while not self.DataSet.EOF do
   begin
+    item := self.Items.Add;
     for field in self.DataSet.Fields do
     begin
       if field.FieldName = self.DataFieldName then
       begin
-        item := self.Items.Add;
+
         item.Text := self.DataSet.FieldByName(field.FieldName).AsString;
+      end;
+      if Assigned(fDetailStringList) then
+      begin
+        for detail in fDetailStringList do
+        begin
+          if field.FieldName = detail then
+          begin
+            item.detail := item.detail + ' ' + self.DataSet.FieldByName
+              (field.FieldName).AsString;
+          end;
+        end;
       end;
     end;
     self.DataSet.Next;
