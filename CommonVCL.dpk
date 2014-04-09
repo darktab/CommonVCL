@@ -35,6 +35,7 @@ requires
 contains
   UDataComboBox in 'UDataComboBox.pas',
   UDataListView in 'UDataListView.pas',
-  UDataListBox in 'UDataListBox.pas';
+  UDataListBox in 'UDataListBox.pas',
+  UWorking in 'UWorking.pas' {WorkingForm};
 
 end.

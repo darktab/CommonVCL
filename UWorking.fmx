@@ -1,0 +1,61 @@
+object WorkingForm: TWorkingForm
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Working'
+  ClientHeight = 568
+  ClientWidth = 320
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop]
+  OnCreate = FormCreate
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 568
+  DesignerDeviceName = 'iPhone5'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object WorkingPanel: TRectangle
+    Align = alContents
+    Fill.Kind = bkNone
+    Height = 568.000000000000000000
+    Stroke.Kind = bkNone
+    Width = 320.000000000000000000
+    object bgImage: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = alContents
+      Height = 568.000000000000000000
+      Width = 320.000000000000000000
+      WrapMode = iwStretch
+    end
+    object GrayBox: TRectangle
+      Align = alCenter
+      Fill.Color = claGray
+      Height = 121.000000000000000000
+      Stroke.Kind = bkNone
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      Width = 129.000000000000000000
+      object WorkingLBL: TLabel
+        Align = alBottom
+        Font.Style = [fsBold]
+        FontColor = claWhite
+        StyledSettings = [ssFamily, ssSize]
+        Height = 23.000000000000000000
+        Position.Y = 98.000000000000000000
+        Text = 'Saving...'
+        TextAlign = taCenter
+        Width = 129.000000000000000000
+        Trimming = ttCharacter
+      end
+      object AniIndicator: TAniIndicator
+        Align = alCenter
+        Height = 58.000000000000000000
+        Width = 57.000000000000000000
+      end
+    end
+  end
+end

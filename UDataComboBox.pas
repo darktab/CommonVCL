@@ -42,6 +42,7 @@ begin
   self.Clear;
   if not self.DataSet.Active then
     self.DataSet.Open;
+
   self.DataSet.First;
   while not self.DataSet.EOF do
   begin
