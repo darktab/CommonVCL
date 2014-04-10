@@ -47,7 +47,7 @@ begin
   begin
     self.AniIndicator.Enabled := False;
     self.WorkingLBL.Text := Text;
-    self.Close;
+    self.Hide;
 
     // TabbedwithNavigationForm.Show;
   end;
