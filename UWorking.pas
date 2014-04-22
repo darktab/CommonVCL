@@ -23,6 +23,9 @@ type
     { Public declarations }
   end;
 
+var
+  WorkingForm: TWorkingForm;
+
 implementation
 
 {$R *.fmx}

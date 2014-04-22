@@ -14,7 +14,7 @@ object WorkingForm: TWorkingForm
   DesignerWidth = 320
   DesignerHeight = 568
   DesignerDeviceName = 'iPhone5'
-  DesignerOrientation = 2
+  DesignerOrientation = 0
   DesignerOSVersion = '7'
   object WorkingPanel: TRectangle
     Align = alContents

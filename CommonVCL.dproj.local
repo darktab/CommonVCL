@@ -2,16 +2,16 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>1899.12.30 00:00:00.000.842,=fmx.dcp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.198,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.782,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.362,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataListBox.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.049,C:\Users\cjacoby\Documents\GitHub\CommonVCL\CommonVCL.dproj=C:\Users\cjacoby\Documents\GitHub\CommonVCL.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.402,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\UWorking.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.506,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.635,C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataComboListViewForm.pas=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.011,C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataComboListViewForm.pas=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.492,C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas=C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataComboListViewFrame.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.782,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.607,C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas=C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataComboListViewFrame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.198,=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.pas=C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataComboListViewFrame.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.011,C:\Users\cjacoby\Documents\GitHub\CommonVCL\UDataComboListViewForm.fmx=C:\Users\cjacoby\Documents\GitHub\CommonVCL\Unit1.fmx</Transaction>
     <Transaction>1899.12.30 00:00:00.000.747,=dbrtl.dcp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.793,C:\Users\cjacoby\Documents\Appmethod\Projects\CommonVCL.dproj=C:\Users\cjacoby\Documents\Appmethod\Projects\Package1.dproj</Transaction>
